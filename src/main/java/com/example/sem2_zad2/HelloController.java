@@ -45,9 +45,9 @@ public class HelloController {
         else {
             return;
         }
-        l_mgResult.setText(String.format("%f", mg));
-        l_gResult.setText(String.format("%f", g));
-        l_kgResult.setText(String.format("%f", kg));
-        l_tResult.setText(String.format("%f", t));
+        l_mgResult.setText(String.format("%.10f", mg));
+        l_gResult.setText(String.format("%.10f", g));
+        l_kgResult.setText(String.format("%.10f", kg));
+        l_tResult.setText(String.format("%.10f", t));
     }
 }
