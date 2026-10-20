@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sem4_zad3.HelloController">
+   <children>
+      <Button layoutX="9.0" layoutY="25.0" mnemonicParsing="false" onAction="#draw" text="draw" />
+      <Button layoutX="9.0" layoutY="57.0" mnemonicParsing="false" onAction="#stopR" text="stop rain" />
+      <Button layoutX="9.0" layoutY="90.0" mnemonicParsing="false" onAction="#recolorC" text="recolor cloud" />
+      <Button layoutX="9.0" layoutY="123.0" mnemonicParsing="false" onAction="#moveLeft" text="move left" />
+   </children>
+</Pane>
